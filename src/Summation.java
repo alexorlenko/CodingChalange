@@ -1,10 +1,10 @@
 public class Summation {
-    public static void main(String[] args) {
 
-        long firstSum = summation(5);
-        long secondSum = summation(7);
-        long totalSum = firstSum + secondSum;
-        System.out.println(totalSum);
+    final static int FIRST_VALUE = 5;
+    final static int SECOND_VALUE = 7;
+
+    public static void main(String[] args) {
+        System.out.println(summation(FIRST_VALUE) + summation(SECOND_VALUE));
     }
 
     public static long summation(int number) {
